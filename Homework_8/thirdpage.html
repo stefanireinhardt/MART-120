@@ -21,18 +21,16 @@
  var lastName = document.getElementById("lName").value;
  var eMail = document.getElementById("Email").value;
 
- function validate_form()
+ function checkName()
          {
              if(firstName, lastName, eMail == "")
              {
                  document.getElementById("finalResult").innerHTML = "Oops! You forgot to fill out all the fields.";
-                 valid = false;
 
              }
              else
              {
                  document.getElementById("finalResult").innerHTML = "Thank you" + firstName + "!";
-
              }
 
          }
@@ -53,7 +51,7 @@
                     <input type="radio" name="no" value="no">No, I do not accept<br>
           <br>
 
-                    <button id="mySubmit" type="button" class="btn" onClick="validate_form();">Submit</button>
+                    <button id="mySubmit" type="button" class="btn" onClick="checkName();">Submit</button>
 
                 </form>
 
