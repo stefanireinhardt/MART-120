@@ -22,17 +22,17 @@
 
    for(var totalNumberQuestions = 10;)
 
-   for(var correctAnswers = 0; correctAnswers < 11; correctAnswers++;)
+   for(var correctAnswers = 0; correctAnswers < 11; correctAnswers++)
    {
 
    }
 
-   for(var falseAnswers = 0; falseAnswers < 11; falseAnswers++;)
+   for(var falseAnswers = 0; falseAnswers < 11; falseAnswers++)
    {
 
    }
 
-   for(var questionsPerformed = 0; questionsPerformed < 11; questionsPerformed++;)
+   for(var questionsPerformed = 0; questionsPerformed < 11; questionsPerformed++)
    {
 
    }
@@ -76,8 +76,6 @@ funtion endGame()
 
     }
 
-        printQuestion();
-
         }
 </script>
 
@@ -97,7 +95,7 @@ funtion endGame()
                 <td><input type="text" id="txtAnswer"></td>
             </tr>
             <tr>
-                <td colspan="2"><button id="btnSubmit" onClick="checkAnswer();">Submit</button></td>
+                <td colspan="2"><button id="btnSubmit" onClick="checkAnswer(), endGame();">Submit</button></td>
             </tr>
         </table>
   <div id="finalResult" style="color: orange;"></div>
