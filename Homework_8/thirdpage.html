@@ -18,7 +18,8 @@
              var eMail = document.getElementById("Email").value;
              if(firstName, lastName, eMail == "")
              {
-                 document.getElementById("finalResult").innerHTML = "Oops! You forgot to fill out all the fields.";
+                 document.getElementById("finalResult").innerHTML = "Oops! You forgot to fill out all the fields.  Please fill in all fields with '*'.";
+
              }
              else
              {
@@ -47,7 +48,7 @@
 
                 </form>
 
-                 <div id="finalResult"></div>
+                 <div id="finalResult" style="color: red;"></div>
 
               </div>
 
