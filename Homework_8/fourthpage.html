@@ -15,6 +15,28 @@
 
  <script>
    var actualAnswer;
+   var correctAnswers;
+   var falseAnswers;
+   var totalNumberQuestions;
+   var questionsPerformed;
+
+   for(var totalNumberQuestions = 10;)
+
+   for(var correctAnswers = 0; correctAnswers < 11; correctAnswers++)
+   {
+
+   }
+
+   for(var falseAnswers = 0; falseAnswers < 11; falseAnswers++)
+   {
+
+   }
+
+   for(var questionsPerformed = 0; questionsPerformed < 11; questionsPerformed++)
+   {
+
+   }
+
    function printQuestion() {
             var number1, number2;
             number1 = Math.floor(Math.random() * 10);
@@ -28,14 +50,33 @@
             var answer = document.getElementById("txtAnswer").value;
             if(answer == actualAnswer)
             {
+                correctAnswers
                 document.getElementById("finalResult").innerHTML = "Good job! You answered " + actualAnswer;
                 document.getElementById("txtAnswer").value = "";
-                printQuestion();
+
             }
             else
             {
+                falseAnswers
                 document.getElementById("finalResult").innerHTML = "Not quite! The actual answer is " + actualAnswer;
             }
+
+questionsPerformed()
+
+funtion endGame()
+{
+    if(questionsPerformed == "10")
+    {
+        document.getElementById("finalResult").innerHTML = "Great job! You answered " + correctAnswers + " questions correctly, and answered " + falseAnswers + " incorrectly!  You scored " +  + percent!;
+        document.getElementById("txtAnswer").value = "";
+
+    }
+    else
+    {
+
+    }
+
+        printQuestion();
 
         }
 </script>
