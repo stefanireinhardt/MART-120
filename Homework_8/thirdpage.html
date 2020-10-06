@@ -22,6 +22,14 @@
              var firstName = document.getElementById("fName").value;
              var lastName = document.getElementById("lName").value;
              var eMail = document.getElementById("Email").value;
+             var ferror = [firstName,lastName,eMail];
+             var i;
+             for (i = 0; i < ferror.length; i++) {
+              if(ferror[i].value.length < 1) {
+                ferror[i].style.backgroundColor = "red";
+              }
+             }
+
              if(firstName, lastName, eMail == "")
              {
                  document.getElementById("finalResult").innerHTML = "Oops! You forgot to fill out all the fields.";
