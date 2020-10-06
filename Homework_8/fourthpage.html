@@ -19,19 +19,20 @@
             var number1, number2;
             number1 = Math.floor(Math.random() * 10);
             number2 = Math.floor(Math.random() * 10);
+            actualAnswer = number1 + number2;
             document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
 
         }
         function checkAnswer()
         {
             var answer = document.getElementById("txtAnswer").value;
-            if(answer == 8)
+            if(answer == actualAnswer)
             {
-                document.getElementById("finalResult").innerHTML = "Good job!";
+                document.getElementById("finalResult").innerHTML = "Good job! You answered " + myAnswer;
             }
             else
             {
-                document.getElementById("finalResult").innerHTML = "Not quite!";
+                document.getElementById("finalResult").innerHTML = "Not quite! The actual answer is " + actualAnswer;
             }
 
         }
