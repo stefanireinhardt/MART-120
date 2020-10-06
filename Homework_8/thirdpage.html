@@ -24,13 +24,13 @@
              var eMail = document.getElementById("Email").value;
              if(firstName, lastName, eMail == "")
              {
-                 document.getElementById("finalResult").innerHTML = "Oops! You forgot to fill out all the fields.  Please fill in all fields with a *.";
+                 document.getElementById("finalResult").innerHTML = "Oops! You forgot to fill out all the fields.";
 
-                 document.getElementById("starFields").innerHTML = "*";
+                 event.target.fillColor = "red";
              }
              else
              {
-                 document.getElementById("finalResult").innerHTML = "Thank you!";
+                 document.getElementById("finalResult").innerHTML = "Thank you" + firstName + "!";
              }
 
          }
