@@ -1,6 +1,6 @@
 <html>
 <head>
-  <Title>Assignment 6</title>
+  <Title>Assignment 8</title>
 
     <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +14,12 @@
  </style>
 
  <script>
-   function printQuestion()
-        {
-            document.getElementById("theQuestion").innerHTML = "What is 3+5?";
+   var actualAnswer;
+   function printQuestion() {
+            var number1, number2;
+            number1 = Math.floor(Math.random() * 10);
+            number2 = Math.floor(Math.random() * 10);
+            document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
 
         }
         function checkAnswer()
@@ -42,7 +45,7 @@
 
           <div style="font-family: Arial, Helvetica, sans-serif; color: black; margin-left: 25px;">
             <br>
-            
+
         <div id="theQuestion"></div>
         <table>
             <tr>
