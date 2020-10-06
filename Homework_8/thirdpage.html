@@ -11,7 +11,19 @@
  <link href="./style.css" type="text/css" rel="stylesheet" />
 
  <script>
+ function checkFirstName()
+         {
+             var firstName = document.getElementById("fName").value;
+             if(firstName == )
+             {
+                 document.getElementById("finalResult").innerHTML = "Oops! You forgot to fill out all the fields.";
+             }
+             else
+             {
+                 document.getElementById("finalResult").innerHTML = "Thank you!";
+             }
 
+         }
  </script>
 
 </head>
@@ -29,11 +41,15 @@
                     <input type="radio" name="no" value="no">No, I do not accept<br>
           <br>
 
-                    <button id="mySubmit" type="button" class="btn">Submit</button>
+                    <button id="mySubmit" type="button" class="btn" onClick="checkFirstName(), checkLastName(), checkEmail();">Submit</button>
+
                 </form>
+
+                 <div id="finalResult"></div>
+
               </div>
 
-   <p style="font-family: Arial, Helvetica, sans-serif; color: black; margin-left: 25px;">Click <a href="index.html" id="btnSubmit" onClick="checkName();">here</a> to visit my home page.</p>
+   <p style="font-family: Arial, Helvetica, sans-serif; color: black; margin-left: 25px;">Click <a href="index.html" id="nextPage">here</a> to visit my home page.</p>
 
     </body>
 </html>
