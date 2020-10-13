@@ -10,17 +10,37 @@
 
  <link href="./style.css" type="text/css" rel="stylesheet" />
 
+ <style>
+ </style>
+
  <script>
    var actualAnswer;
    var correctAnswers;
    var falseAnswers;
-   var totalNumberQuestions = 10;
+   var totalNumberQuestions;
    var questionsPerformed;
 
-   function printQuestion()
+   for(var totalNumberQuestions = 10;)
+
+   for(var correctAnswers = 0; correctAnswers < 10; correctAnswers++)
    {
-            var number1 = Math.floor(Math.random() * 10);
-            var number2 = Math.floor(Math.random() * 10);
+
+   }
+
+   for(var falseAnswers = 0; falseAnswers < 10; falseAnswers++)
+   {
+
+   }
+
+   for(var questionsPerformed = 0; questionsPerformed < 10; questionsPerformed++)
+   {
+
+   }
+
+   function printQuestion() {
+            var number1, number2;
+            number1 = Math.floor(Math.random() * 10);
+            number2 = Math.floor(Math.random() * 10);
             actualAnswer = number1 + number2;
             document.getElementById("theQuestion").innerHTML = "What is " + number1 + "+" + number2 + "?";
 
@@ -30,19 +50,24 @@
             var answer = document.getElementById("txtAnswer").value;
             if(answer == actualAnswer)
             {
+                correctAnswers
                 document.getElementById("finalResult").innerHTML = "Good job! You answered " + actualAnswer;
+                document.getElementById("txtAnswer").value = "";
 
             }
             else
             {
+                falseAnswers
                 document.getElementById("finalResult").innerHTML = "Not quite! The actual answer is " + actualAnswer;
             }
+
+questionsPerformed()
 
 funtion endGame()
 {
     if(questionsPerformed == "10")
     {
-        document.getElementById("finalResult").innerHTML = "Great job! You answered " + correctAnswers + " questions correctly, and answered " + falseAnswers + " incorrectly!  You scored " +  + "percent!";
+        document.getElementById("finalResult").innerHTML = "Great job! You answered " + correctAnswers + " questions correctly, and answered " + falseAnswers + " incorrectly!  You scored " +  + percent!;
         document.getElementById("txtAnswer").value = "";
 
     }
@@ -57,10 +82,10 @@ funtion endGame()
 </head>
 
 <body onload="printQuestion();">
-  <div class="indexPage"></div>
+  <div class="indexPage">
           <h1 style="font-family: Arial, Helvetica, sans-serif; color: white; background-color: orange; margin-left: 25px;">Math Game!</h1>
 
-          <div id="theQuestion" style="font-family: Arial, Helvetica, sans-serif; color: black; margin-left: 25px;"></div>
+          <div id="theQuestion" style="font-family: Arial, Helvetica, sans-serif; color: black; margin-left: 25px;">
             <br>
 
         <table>

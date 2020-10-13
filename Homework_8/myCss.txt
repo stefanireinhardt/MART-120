@@ -1,0 +1,75 @@
+body {
+   width: 1074px;
+   background-color: black;
+   }
+
+   .background {
+     position: absolute;
+     width: auto;
+     opacity: 0.5;
+   }
+
+.indexPage {
+  position: absolute;
+  background-color: white;
+  color: black;
+  opacity: 1;
+  width: 1400px;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+.secondPage {
+  position: absolute;
+  color: white;
+  width: 1024px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+
+#specificLink{
+        color:orange;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+#specificColor{
+        color: orange;
+	font-family: Arial, Helvetica, sans-serif;
+    }
+
+#shortstoryColor{
+        color: white;
+	font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+          border: 1px solid;
+          border-radius: 2px;
+          font-size: 1rem;
+          margin: 0.25rem;
+          min-width: 125px;
+          padding: 0.5rem;
+          transition: border-color 0.5s ease-out;
+        }
+        input:optional {
+          border-color: gray;
+        }
+        input:required:valid {
+          border-color: green;
+        }
+        input:invalid {
+          border-color: red;
+        }
+        input:required:focus:valid {
+          background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+          background-size: 25px;
+        }
+        input:focus:invalid {
+          background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+          background-size: 25px;
+        }
