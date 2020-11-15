@@ -2,7 +2,7 @@
 var characterX = 400;
 var characterY = 400;
 // define the key codes for each letter
-var w = 87; 
+var w = 87;
 var s = 83;
 var a = 65;
 var d = 68;
@@ -56,19 +56,19 @@ function draw()
     // handle the keys
     if(keyIsDown(w))
     {
-        characterY -= 10;   
+        characterY -= 10;
     }
     if(keyIsDown(s))
     {
-        characterY += 10;   
+        characterY += 10;
     }
     if(keyIsDown(a))
     {
-        characterX -= 10;   
+        characterX -= 10;
     }
     if(keyIsDown(d))
     {
-        characterX += 10;   
+        characterX += 10;
     }
 
     // potential enemy #1
@@ -131,7 +131,7 @@ function draw()
         shape2Y = height;
     }
 
-    
+
     // check to see if the character has left the exit
     if(characterX < 0 && characterY < width-15)
     {
@@ -155,7 +155,7 @@ function mouseClicked()
 function keyPressed() {
     if (keyCode === LEFT_ARROW) {
         characterX -= 10;
-    } 
+    }
     else if (keyCode === RIGHT_ARROW) {
         characterX += 10;
     }
