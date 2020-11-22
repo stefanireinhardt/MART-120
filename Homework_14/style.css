@@ -64,12 +64,23 @@ body {
   margin-right: 50px;
 }
 
-.framed-element-A4 {
+.framed-element-A4.1 {
   position: absolute;
   background-color: rgba(47, 119, 106, 0.3);
   width: auto;
   height: auto;
-  margin-top: 75px;
+  margin-top: 2000px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A4.2 {
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 2850px;
   margin-left: 50px;
   margin-bottom: 50px;
   margin-right: 50px;
