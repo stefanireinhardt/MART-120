@@ -31,7 +31,151 @@ body {
   margin-bottom: 100px;
 }
 
-.framed-element-about {
+.framed-element-A1 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A2 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 250px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A3 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A4 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A5 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A6 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A7 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A8 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A9 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A10 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A11 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A12 {
+  /* Targets All Target Elements */
+  position: absolute;
+  background-color: rgba(47, 119, 106, 0.3);
+  width: auto;
+  height: auto;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.framed-element-A13 {
   /* Targets All Target Elements */
   position: absolute;
   background-color: rgba(47, 119, 106, 0.3);
